@@ -8,6 +8,9 @@ The purpose of this project is to build an ETL pipeline to extract data from the
 
 By the end of this project, the analytics team should be able to run real-time queries from the Data Lake for insightful decision making on the app.
 
+![Data Lake](https://github.com/Tsakunelson/Data-Lake/blob/main/Screen%20Shot%202021-01-31%20at%209.55.22%20AM.png)
+
+NB: The above digram is the complete data lake architecture but this project specifically speaks to stuctured JSON data from an s3 bucket saved by an input API agent. The project is batch processing enabled (script launched on demand) and can be automated as an ETL work for real-time processing. 
 
 # Data Sources
 
