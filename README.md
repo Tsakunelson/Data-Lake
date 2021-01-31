@@ -28,6 +28,7 @@ This dataset is JSON format as well, containing user generated event on the app,
 
 
 Below is a screenshot of the data table:
+![Log Events Head](https://github.com/Tsakunelson/Data_Warehouse_Redshift-/blob/main/log-data.png)
 
 
 # Files Description
