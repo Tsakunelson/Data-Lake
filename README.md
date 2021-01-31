@@ -1,7 +1,7 @@
 
 # Project Motivation
 
-The music startup has experienced growth with the data warehouse for processing at scale on the cloud, and has decided to move thier data to a Data Lake due to their further increasing expansion. The collected data takes the form of JSON files from user activity on the music app and a second set of JSON log files consisting of songs and artists data from the app all stored in S3.
+A music startup has experienced growth with an established data warehouse on the cloud, and has opted for a Data Lake to accomodate further increasing expansion. The collected data takes the form of JSON files from user activity on the music app and a second set of JSON log files consisting of songs and artists data from the app all stored in S3.
 
 The purpose of this project is to build an ETL pipeline to extract data from the JSON files on S3 and store them in Parquet tables for the Data Lake. The latter is to further enhance scalability, efficiency, flexibility (and the advantges of the Data Lake that comes with it) of real-time quesries.
 
