@@ -1,4 +1,3 @@
-# Data-Lake
 
 # Project Motivation
 
