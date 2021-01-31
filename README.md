@@ -1,15 +1,15 @@
 
 # Project Motivation
 
-A music startup has experienced growth with an established data warehouse on the cloud, and has opted for a Data Lake to accomodate further increasing expansion. The collected data takes the form of JSON files from user activity on the music app and a second set of JSON log files consisting of songs and artists data from the app all stored in S3.
+A music startup has experienced growth with an established data warehouse on cloud, and has opted for a Data Lake to accomodate flexibility and further expansion. The collected data takes the form of JSON files from user activity on the music app and a second set of JSON log files consisting of songs and artists data from the app all stored on AWS S3.
 
-The purpose of this project is to build an ETL pipeline to extract data from the JSON files on S3 and store them in Parquet tables for the Data Lake. The latter is to further enhance scalability, efficiency, flexibility (and the advantges of the Data Lake that comes with it) of real-time quesries.
+The purpose of this project is to build an ETL pipeline to extract data from the JSON files on S3 and store them as partitioned tables in parquet format for the Data Lake. The latter aims at enhancing scalability, efficiency and flexibility of real-time quesries.
 
 By the end of this project, the analytics team should be able to run real-time queries from the Data Lake for insightful decision making on the app.
 
 ![Data Lake](https://github.com/Tsakunelson/Data-Lake/blob/main/Screen%20Shot%202021-01-31%20at%209.55.22%20AM.png)
 
-NB: The above digram is the complete data lake architecture but this project specifically speaks to stuctured JSON data from an s3 bucket saved by an input API agent. The project is batch processing enabled (script launched on demand) and can be automated as an ETL work for real-time processing. 
+NB: The above digram is the complete data lake architecture; nonetheless this project specifically speaks to stuctured JSON data from an s3 bucket saved by an input API agent. The project is batch processing enabled (script launched on demand) and can be automated as an ETL work for real-time processing. 
 
 # Data Sources
 
